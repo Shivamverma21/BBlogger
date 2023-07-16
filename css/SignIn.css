@@ -1,0 +1,134 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+  --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+#navbar::before {
+  content: "";
+  background-color: rgb(38, 41, 55);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+  margin: 10px 34px;
+}
+
+#logo img {
+  border-radius: 30px;
+  height: 59px;
+  margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+  display: flex;
+  font-family: "Baloo Bhai", cursive;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../img/signupbg.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+.signup-form {
+  width: 350px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  background: wheat;
+  height: fit-content;
+  opacity: 0.8;
+  margin: 0.4% auto 0;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid rgb(129, 121, 121);
+  border-radius: 5px;
+}
+.signup-form img {
+  height: 150px;
+  border-radius: 80px;
+}
+.login-para {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 2px;
+}
+.form-element {
+  padding: 2px;
+  margin: auto;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-element input {
+  margin: 2px;
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#submit-btn1 {
+  background-color: #1773ea;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  width: 80%;
+  cursor: pointer;
+  margin: 10px;
+}
+#submit-btn2 {
+  background-color: #1773ea;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  width: 80%;
+  cursor: pointer;
+}

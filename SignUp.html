@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp-page</title>
+    <link rel="stylesheet" href="css/SignUp.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="img/logo.png" alt="BBlogger.com" />
+      </div>
+      <ul>
+        <li class="item"><a href="/">Home</a></li>
+        <li class="item"><a href="/Getpremium.html">Get premium</a></li>
+        <li class="item"><a href="/About.html">About</a></li>
+        <li class="item"><a href="reading.html">Start reading</a></li>
+        <li class="item"><a href="/SignUp.html">SignUp</a></li>
+      </ul>
+    </nav>
+    <div class="signup-form">
+      <img src="/img/logo.png" alt="BBlogger" />
+      <h3 class="login-para">let your knowledge flown to others</h3>
+      <form action="/SignIn.html">
+        <div class="form-element">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email*"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="Full userame*"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+          />
+        </div>
+        <div class="form-element">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password*"
+          />
+        </div>
+        <p>
+          <span><input id="checkbox" type="checkbox" required /></span> By
+          signing up, you agree to out Terms, <br />
+          privacy policy and cookies policy.
+        </p>
+        <input type="submit" id="submit-btn" value="Sign Up" />
+        <hr />
+        <p class="or">OR</p>
+      </form>
+      <a href="/reading.html">
+        <input type="submit" id="submit-btn" value="Sign Up with google" />
+      </a>
+
+      <p>Already have an account ? <a href="/SignIn.html">SignIn</a></p>
+    </div>
+  </body>
+</html>

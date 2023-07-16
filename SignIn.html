@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp-page</title>
+    <link rel="stylesheet" href="css/SignIn.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="img/logo.png" alt="BBlogger.com" />
+      </div>
+      <ul>
+        <li class="item"><a href="/">Home</a></li>
+        <li class="item"><a href="Getpremium.html">Get premium</a></li>
+        <li class="item"><a href="/About.html">About</a></li>
+        <li class="item"><a href="reading.html">Start reading</a></li>
+        <li class="item"><a href="/SignUp.html">SignUp</a></li>
+      </ul>
+    </nav>
+    <div class="signup-form">
+      <img src="/img/logo.png" alt="BBlogger" />
+      <h3 class="login-para">SignIn here</h3>
+      <form action="/reading.html">
+        <div class="form-element">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email*"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password*"
+          />
+        </div>
+        <input type="submit" id="submit-btn1" value="Sign In" />
+        <hr />
+        <p class="or">OR</p>
+      </form>
+      <a href="/reading.html">
+        <input type="submit" id="submit-btn2" value="Sign In with google" />
+      </a>
+      <p>Already have an account ? <a href="/SignUp.html">SignUp</a></p>
+    </div>
+  </body>
+</html>
